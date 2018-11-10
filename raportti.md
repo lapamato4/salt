@@ -1,9 +1,9 @@
-#Palvelinten hallinta h3
+# Palvelinten hallinta h3
 
 Tehtävät tehtiin usb-tikulta bootatulta xubuntu 18.04 LTS käyttöjärjestelmältä. 
 Koneena toimi Lenovo X1 Carbon. Harjoitus aloitettiin tuttuun tapaan komennoilla setxkbmap fi ja sudo apt-get update.
 
-#b) MarkDown. Tee tämän tehtävän raportti MarkDownina.
+# b) MarkDown. Tee tämän tehtävän raportti MarkDownina.
 
 Tein tiedoston nimeltä raportti.md salt kansioon ja aloin raportoimaan siihen. Lopuksi kuitenkin kopioin raportin wordpressiin, sillä muutkiin harjoitukset ovat siellä.
 
