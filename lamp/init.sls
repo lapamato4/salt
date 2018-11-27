@@ -1,9 +1,17 @@
 apache2:
   pkg.installed
 
+mariadb-client:
+  pkg.installed
+
+mariadb-server:
+  pkg.installed
+
 php7.2:
   pkg.installed
 
+php-mysql:
+  pkg.installed
 
 
 /var/www/html/index.html:
