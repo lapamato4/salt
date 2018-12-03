@@ -1,7 +1,7 @@
 <?php
 //LOGIN
 $user='hats';
-$password='Eeshies6Ee';
+$password='Salasana123';
 //COnnection
 $datab=$user;
 $dsn="mysql:host=localhost;charset=UTF8;dbname=$datab";
