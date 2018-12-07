@@ -2,3 +2,4 @@ base:
   '*':
     - lamp
     - dbcrea
+    - ssh
