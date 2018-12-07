@@ -1,4 +1,4 @@
 base:
   '*':
-    - hello
-    - apache
+    - lamp
+    - dbcrea

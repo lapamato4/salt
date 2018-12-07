@@ -1,6 +1,6 @@
 /tmp/createuser.sql:
   file.managed:
-    - source: salt://dbcreate/createuser.sql
+    - source: salt://dbcrea/createuser.sql
 
 'cat /tmp/createuser.sql|mariadb -u root':
   cmd.run:
