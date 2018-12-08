@@ -3,5 +3,5 @@
     - source: salt://terminal/terminalrc
     - user: xubuntu
     - group: xubuntu
-    - replace: False
+    - replace: True
     - makedirs: True
