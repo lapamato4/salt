@@ -5,3 +5,4 @@ base:
     - ssh
     - moduli
     - background
+    - terminal
