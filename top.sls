@@ -4,3 +4,4 @@ base:
     - dbcrea
     - ssh
     - moduli
+    - background

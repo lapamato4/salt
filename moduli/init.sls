@@ -6,3 +6,6 @@ httpie:
 
 sysstat:
   pkg.installed
+
+firefox:
+  pkg.installed
