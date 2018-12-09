@@ -15,7 +15,7 @@ echo 'master: localhost'|sudo tee /etc/salt/minion
 sudo systemctl restart salt-minion.service
 
 cd /srv/
-git clone https://github.com/lapamato4/salt/
+sudo git clone https://github.com/lapamato4/salt/
 cd /salt/
 ./highstate.sh
 
