@@ -14,9 +14,8 @@ echo "Retrieving and Applying Settings..."
 echo 'master: localhost'|sudo tee /etc/salt/minion
 sudo systemctl restart salt-minion.service
 
-cd /srv/
-sudo git clone https://github.com/lapamato4/salt/
-cd /salt/
+git clone https://github.com/lapamato4/salt/
+cd salt/
 ./highstate.sh
 
 echo "Configuring Live Desktop"
