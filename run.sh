@@ -14,8 +14,9 @@ echo "Retrieving and Applying Settings..."
 echo 'master: localhost'|sudo tee /etc/salt/minion
 sudo systemctl restart salt-minion.service
 
-git clone https://github.com/lapamato4/salt/
-cd salt/
+cd /srv
+sudo git clone https://github.com/lapamato4/salt/
+cd /salt
 
 echo "Configuring Live Desktop"
 setxkbmap fi
