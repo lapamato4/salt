@@ -16,7 +16,7 @@ sudo systemctl restart salt-minion.service
 
 cd /srv
 sudo git clone https://github.com/lapamato4/salt/
-cd /salt
+cd /srv/salt
 
 echo "Configuring Live Desktop"
 setxkbmap fi
