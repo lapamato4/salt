@@ -1,5 +1,5 @@
 
-echo "Live USB configuration Starting... lapamato4/salt"
+echo "Salt installation and configuration starting..."
 set -o verbose
 
 echo "Installing Salt and Git..."
@@ -15,6 +15,7 @@ cd /srv
 sudo git clone https://github.com/lapamato4/salt/
 cd /srv/salt
 
+echo "Installing developer tools with salt"
 sudo salt '*' state.apply devkontti
 
 echo "Salt installed and configured. Developer tools installed"
