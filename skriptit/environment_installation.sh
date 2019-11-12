@@ -19,4 +19,3 @@ echo "Installing developer tools with salt"
 sudo salt '*' state.apply devkontti
 
 echo "Salt installed and configured. Developer tools installed"
-
