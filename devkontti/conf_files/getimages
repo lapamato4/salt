@@ -1,0 +1,3 @@
+
+# !/bin/bash
+curl -X GET 172.28.230.60:5000/v2/_catalog

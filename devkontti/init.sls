@@ -8,7 +8,13 @@ applications:
 
 /etc/docker/daemon.json:
   file.managed:
-    - source: salt://devkontti/insecure_conf.json
+    - source: salt://devkontti/conf_files/insecure_conf.json
+
+/bin/getimages:
+  file.managed:
+    - source: salt://devkontti/conf_files/getimages
+    - group: users
+    - mode: 755
 
 dockerservice:
   service.running:
