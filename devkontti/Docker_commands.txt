@@ -1,0 +1,18 @@
+Skriptin haku gitistä:
+1  wget https://raw.githubusercontent.com/lapamato4/salt/master/skriptit/environment_installation.sh
+
+Skriptin ajo:    
+8  chmod +x environment_installation.sh 
+   10  sudo ./environment_installation.sh 
+   13  sudo salt-key -A
+   15  sudo salt '*' state.apply devkontti
+
+Docker kontin veto hubista omalle koneelle. Tämän jälkeen sen tägäys ja työntö omalle docker palvelimelle.
+Lopuksi imagen poisto koneelta ja sen veto uudelleen palvelimelta.
+	sudo docker pull mysql
+   18  sudo docker image tag mysql 172.28.230.60:5000/mysql
+   19  sudo docker push 172.28.230.60:5000/mysql
+   24  docker image remove mysql
+   25  sudo docker image remove 172.28.230.60:5000/mysql
+   26  sudo docker pull 172.28.230.60:5000/mysql
+
